@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 50px;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 20px;
+}
+
+.hero h1 {
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #cc5500;
+}
+
+/* Popular Recipes Section */
+.popular-recipes {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.popular-recipes h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.recipes-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.recipe .btn {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+/* About Page */
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 50%;
+    margin-right: 30px;
+}
+
+.about-section img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+/* Login Page */
+.login-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.login-section form {
+    max-width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Contact Page */
+.contact-section {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Recipes Grid */
+.recipes-list {
+    text-align: center;
+    padding: 50px;
+}
